@@ -1,0 +1,11 @@
+{
+  "firstName": "optimus",
+  "lastName": "prime",
+  "nif": "00000000T",
+  "email": "optimus-primer@bot.com",
+  "phone": "010020030",
+  "address": {
+    "streetName": "mars planet",
+    "number": "2"
+  }
+}
