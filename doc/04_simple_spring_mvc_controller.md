@@ -95,3 +95,6 @@ And we should get in response the message that we have implemented in the method
 [Springboot Web Applications](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-developing-web-applications.html#boot-features-developing-web-applications)
 
 
+# Next lab
+
+[Creating a Service layer](05_adding_service_layer.md)

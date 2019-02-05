@@ -92,6 +92,9 @@ public interface CustomerRepository extends JpaRepository<Customer, String> {
 
 That's all. When extending the JpaRepository interface, we have at our disposal the necessary methods to persist the entity.
             
+
+## Update the service layer to use the new repository
+
 Let's now modify the service layer, to make use of the repository to save a client and recover it.
 
 
@@ -128,6 +131,8 @@ public class CustomerServiceImpl implements CustomerService {
 
 
 ```
+
+## Update the controller layer to add new endpoints to work with customer model
 
 Now we just need to modify the controller layer and add an endpoint for each operation. Create client and retrieve client.
 
@@ -174,6 +179,8 @@ New annotations used here are:
 
 * @PathVariable is used to extract values from the request URI.
 
+
+## Check your application
 
 Now is time to check our new endpoints. Compile and start your application.
 

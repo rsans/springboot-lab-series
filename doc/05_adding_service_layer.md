@@ -97,3 +97,8 @@ Now that we have implemented the service layer and use it from the controller, w
 [Project Lombok](https://projectlombok.org)
 
 [Lombok API](https://projectlombok.org/api/overview-summary.html)
+
+
+# Next lab
+
+[Creating a repository layer](06_adding_repository_layer.md)

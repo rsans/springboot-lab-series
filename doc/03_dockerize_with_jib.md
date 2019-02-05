@@ -92,3 +92,8 @@ mvn package
 [Google Jib](https://github.com/GoogleContainerTools/jib)
 
 [Google Jib Maven Plugin](https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin)
+
+
+# Next lab
+
+[Creating a simple REST controller with Spring MVC](04_simple_spring_mvc_controller.md)

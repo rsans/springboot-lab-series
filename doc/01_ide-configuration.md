@@ -64,3 +64,8 @@ Configure your maven installation
 To work with the lombok annotations, we need to install the lombok support plugin in the IDE
 
 ![IDE Lombok plugin configuration screen](screenshots/ide_settings/lombok-plugin.png?raw=true)
+
+
+# Next lab
+
+[Quickstart Springboot project](02_generate-project.md)

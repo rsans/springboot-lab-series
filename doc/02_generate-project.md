@@ -38,3 +38,9 @@ When the assistant finishes, a project with the following structure will have be
 
 
 Now we have a base on which to start working to create our first springboot application.
+
+
+
+# Next lab
+
+[Dockerizing springboot app using Jib](03_dockerize_with_jib.md)
