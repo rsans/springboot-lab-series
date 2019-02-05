@@ -14,8 +14,8 @@ import com.hotelbeds.springbootlab.service.CustomerService;
 
 import lombok.RequiredArgsConstructor;
 
-@RequestMapping("/customer")
 @RestController
+@RequestMapping("/customer")
 @RequiredArgsConstructor
 public class CustomerController {
 

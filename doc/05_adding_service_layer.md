@@ -85,3 +85,15 @@ public class CustomerController {
 ```
 
 You can read more about lombok @RequiredArgsConstructor [here](https://projectlombok.org/features/constructor)
+
+
+Now that we have implemented the service layer and use it from the controller, we will check that everything continues working correctly. For this you can follow the steps of the section "Checking the controller class" of the [previous lab](04_simple_spring_mvc_controller.md)
+
+
+## References
+
+[Spring Dependency Injection](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-spring-beans-and-dependency-injection.html)
+
+[Project Lombok](https://projectlombok.org)
+
+[Lombok API](https://projectlombok.org/api/overview-summary.html)
