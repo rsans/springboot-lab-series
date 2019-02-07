@@ -95,8 +95,26 @@ That's all. When extending the JpaRepository interface, we have at our disposal 
 
 ## Update the service layer to use the new repository
 
-Let's now modify the service layer, to make use of the repository to save a client and recover it.
+Let's now modify the service layer, to make use of the repository to save a customer and recover it.
 
+Add new methods to the interface:
+
+```
+package com.hotelbeds.springbootlab.service;
+
+import com.hotelbeds.springbootlab.model.Customer;
+
+public interface CustomerService {
+
+    Customer getCustomer(String customerId);
+
+    Customer saveCustomer(Customer customer);
+    
+}
+
+```
+
+And in the implementation:
 
 ```
 package com.hotelbeds.springbootlab.service;
@@ -134,7 +152,7 @@ public class CustomerServiceImpl implements CustomerService {
 
 ## Update the controller layer to add new endpoints to work with customer model
 
-Now we just need to modify the controller layer and add an endpoint for each operation. Create client and retrieve client.
+Now we just need to modify the controller layer and add an endpoint for each operation. Create customer and retrieve customer.
 
 ```
 package com.hotelbeds.springbootlab.controller;

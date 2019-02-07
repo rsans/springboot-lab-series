@@ -29,6 +29,9 @@ There are other ways to provide the credentials, but though simply out of scope 
 
 Just keep in mind that whenever you store passwords in the maven settings, it is highly recommend using maven password encryption.
 
+
+Add jib-maven-plugin to your build section:
+
 ```
 <project>
     ...
@@ -85,6 +88,9 @@ Now to build your container image you can use
 ```
 mvn package
 ```
+
+## Build an image tarball
+You can build and save your image to disk as a tarball. To do it change the goal to buildTar.
 
 
 # References

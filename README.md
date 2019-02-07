@@ -18,7 +18,7 @@ It is important to review the requirements and perform the initial configuration
 * Unix Terminal or GitBash
 * cURL
 * Git
-* IntelliJ IDEA
+* IntelliJ IDEA Ultimate
 * IntelliJ Lombok Plugin
 
 If you like to live to the limit you can use any other IDE. Other IDEs will not be supported during the lab, so make sure you have it properly configured before you start.
